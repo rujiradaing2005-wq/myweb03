@@ -1,0 +1,49 @@
+  /* select คือ จุดหรือตำแหน่งที่จะใส่ css */
+      h1 {
+        text-align: center;
+        color: #832cbd;
+      }
+      h3 {
+        text-align: center;
+        color: #2c77bd;
+        text-decoration: underline;
+      }
+      #aa {
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      #bb {
+        text-align: center;
+        color: #dca8ff;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      img {
+        width: 100px;
+        padding: 10px;
+      }
+      #cc {
+        border: 2px solid #ff9eab;
+        border-radius: 10px;
+      }
+      #dd {
+        border: 2px solid #9ef4ff;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      #ee {
+        border: 2px solid #ffe09e;
+        border-radius: 10px;
+      }
+      #ff {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      #ii {
+        text-align: center;
+        margin-bottom: 150px;
+      }
