@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        /* General Sibling Selector */
+        /* ~ กดAit +1 +2 +6 */
+        /* S1 ~ S2 คือ S2 ทั้งที่อยู่ต่อจาก S1  */
+        #aa ~ p{
+            color: #ff0000;
+            background-color: aquamarine;
+            border: 2px solid #fa60c7;
+            padding-left: 3rem;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="aa">
+      <p>111</p>
+      <p>222</p>
+      <span>HELLO</span>
+      <div id="bb">
+        <p>333</p>
+        <div id="cc">
+          <p>444</p>
+          <span>HI</span>
+        </div>
+      </div>
+      <p>555</p>
+    </div>
+    <p>666</p>
+    <p>777</p>
+    <span>HEY</span>
+    <p>888</p>
+  </body>
+</html>
